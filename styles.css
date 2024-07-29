@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(2, 2, 2);
+}
+
+#game-container {
+    text-align: center;
+    background-color: white;
+}
+
+#word-container {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.letter-button {
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.letter-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+#message {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: red;
+}
+
+#restart-button {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
